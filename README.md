@@ -1,4 +1,4 @@
-# js_training
+# JS題目
 
 ## String & Number (Completed)
 
