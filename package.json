@@ -5,7 +5,8 @@
   "main": "string.js",
   "scripts": {
     "array": "babel-node array.js",
-    "string": "babel-node string.js"
+    "string": "babel-node string.js",
+    "object": "babel-node object.js"
   },
   "repository": {
     "type": "git",

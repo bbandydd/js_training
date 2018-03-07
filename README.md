@@ -1,6 +1,6 @@
 # JS題目
 
-## String & Number (Completed)
+## String & Number
 
 ```
 1. 一個陣列中有許多個字串，寫一個function找出這些字串最長的共同字首。
@@ -57,7 +57,7 @@
     x = 123 , return 321 x = -123 , return -321
 ```
 
-## Array (Completed)
+## Array
 
 ```
 1. deep clone array
@@ -173,10 +173,12 @@
     console.log(a.text); // 'bbb'
 
 2. add a format prototype to Date
-  為 Date 新增一個原型方法為 format，可以執行 new Date().format('YYYY-MM-DD')
+  為 Date 新增一個原型方法為 format，可以執行 new Date().format()
+
+  format: 'YYYY-MM-DD'
   
     範例：
-    輸入：new Date().format('YYYY-MM-DD')
+    輸入：new Date().format()
     輸出：'2018-02-25'
 
 3. class constructor for Person
