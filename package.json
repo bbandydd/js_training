@@ -4,9 +4,9 @@
   "description": "## String & Number (Completed)",
   "main": "string.js",
   "scripts": {
-    "array": "babel-node array.js",
-    "string": "babel-node string.js",
-    "object": "babel-node object.js"
+    "array": "babel-node src/array.js",
+    "string": "babel-node src/string.js",
+    "object": "babel-node src/object.js"
   },
   "repository": {
     "type": "git",
