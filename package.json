@@ -6,7 +6,8 @@
   "scripts": {
     "array": "babel-node src/array.js",
     "string": "babel-node src/string.js",
-    "object": "babel-node src/object.js"
+    "object": "babel-node src/object.js",
+    "test:string": "jest test/string.test.js --coverage"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,10 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.2"
+  },
+  "jest":{
+    "testEnvironment": "jsdom"
   }
 }
